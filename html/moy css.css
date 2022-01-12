@@ -1,0 +1,68 @@
+:root {
+   --SC: #44556f;
+    --two: #eba24b;
+
+}
+
+body{
+ background-color: #f34c28;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+}
+.logo{
+    background-color: violet;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-top: 50px solid var(--SC);
+    border-right: 50px solid var(--two);
+    border-bottom: 50px solid var(--SC);
+    border-left: 50px solid var(--two);
+    justify-content: center;
+    border-radius: 250px 250px 250px 250px;
+}
+.stroka{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(40, 172, 147);
+    transform: rotate(45deg);
+    top: 250px;
+    
+}
+
+.korobo4ka {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(40, 172, 147);
+    transform: rotate(45deg);
+    left: 250px;
+}
+.korobo4ka1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(40, 172, 147);
+    transform: rotate(45deg);
+    right: 250px;
+}
+.korobo4ka2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(40, 172, 147);
+    transform: rotate(45deg);
+    bottom: 250px;
+}
+.slovo{
+    display: inline-block;
+    transform: translate(100, 100);
+    position: inherit;
+    width: 100px;
+    height: 100px;
+
+}
